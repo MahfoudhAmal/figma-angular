@@ -1,0 +1,45 @@
+.body {
+  width: 100%;
+  .rectangle {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    border: 1px solid #006400;
+    display: block;
+    margin: auto;
+    box-shadow: 3px 3px 3px #ccc;
+    border-radius: 3px;
+    .rectangle-content {
+      margin-top: 5px;
+      .rectangle-icon {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        margin: 5px;
+      }
+      .rectangle-label {
+        margin-left: 25px;
+        color: #006400;
+      }
+    }
+  }
+  .text {
+    width: 795px;
+    height: 155px;
+    display: block;
+    margin: auto;
+    padding: 25px 25px 0 25px;
+    .title {
+      text-align: center;
+      .title-marqueur {
+        width: 10px;
+        height: 10px;
+        margin-right: 6px;
+      }
+      .title-label {
+        text-transform: uppercase;
+        color: #b20510;
+      }
+    }
+  }
+}
